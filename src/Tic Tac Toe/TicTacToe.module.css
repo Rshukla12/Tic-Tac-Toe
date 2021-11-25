@@ -1,0 +1,57 @@
+.app {
+    width: 98%;
+    display: flex;
+    gap: 2%;
+}
+.main {
+    width: 72%;
+    padding: 1rem 2rem;
+    padding-left: 5rem;
+}
+.grid {
+    display: grid;
+    gap: 1.45rem;
+    background: black;
+    grid-template-columns: repeat(3, 30%);
+    width: 90%;
+    justify-content: space-between;
+    margin: 2rem auto 2rem;
+    font-size: 7rem;
+}
+.box {
+    min-width: 16.9rem;
+    min-height: 10rem;
+    background: white;
+    padding-top: -1rem;
+    font-weight: 600;
+}
+.winner, .historyTitle {
+    padding: 0.5rem 1rem;
+    max-width: 19rem;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(62, 177, 223, 0.561);
+    border: 1px solid gray;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.history {
+    padding: 1rem 0.5rem;
+    width: 30rem;
+}
+.historyDetails {
+    padding: 1rem 2.5rem 0.5rem;
+    max-height: 30rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+}
+.historyDetails::-webkit-scrollbar {
+    display: none;
+}
+.historyItems {
+    border-radius: 10px;
+    padding: 1rem;
+    border: 1px solid gray;
+}
