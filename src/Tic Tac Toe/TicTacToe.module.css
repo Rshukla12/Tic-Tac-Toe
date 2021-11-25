@@ -1,57 +1,27 @@
 .app {
-    width: 98%;
-    display: flex;
-    gap: 2%;
+    padding-top: 1rem;
+    height: 96vh;
 }
 .main {
-    width: 72%;
-    padding: 1rem 2rem;
-    padding-left: 5rem;
-}
-.grid {
-    display: grid;
-    gap: 1.45rem;
-    background: black;
-    grid-template-columns: repeat(3, 30%);
-    width: 90%;
-    justify-content: space-between;
-    margin: 2rem auto 2rem;
-    font-size: 7rem;
-}
-.box {
-    min-width: 16.9rem;
-    min-height: 10rem;
-    background: white;
-    padding-top: -1rem;
-    font-weight: 600;
-}
-.winner, .historyTitle {
-    padding: 0.5rem 1rem;
-    max-width: 19rem;
-    margin: auto;
-    border-radius: 10px;
+    font-size: 3rem;
     background-color: rgba(62, 177, 223, 0.561);
-    border: 1px solid gray;
-    font-size: 1.75rem;
-    font-weight: 600;
+    width: 75%;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    margin: auto;
 }
-.history {
-    padding: 1rem 0.5rem;
-    width: 30rem;
-}
-.historyDetails {
-    padding: 1rem 2.5rem 0.5rem;
-    max-height: 30rem;
-    overflow-y: scroll;
+.btns {
+    margin-top: 1rem;
     display: flex;
-    flex-direction: column-reverse;
-    gap: 1rem;
+    justify-content: space-evenly;
 }
-.historyDetails::-webkit-scrollbar {
-    display: none;
-}
-.historyItems {
+.btn {
+    font-size: 3rem;
+    padding: 0rem 2rem;
     border-radius: 10px;
-    padding: 1rem;
-    border: 1px solid gray;
+    cursor: pointer;
+    background-color: rgba(62, 177, 223, 0.561);
+}
+.img {
+    width: 42.5%;
 }
